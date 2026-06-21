@@ -1,0 +1,12 @@
+﻿# Java & Maven
+target/
+*.iml
+.idea/
+.env
+*.log
+/target/
+/.idea/
+*.class
+/Backend/target/
+.dockerignore
+target

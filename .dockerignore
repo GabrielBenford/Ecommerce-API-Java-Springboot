@@ -1,0 +1,17 @@
+Backend/target
+Backend/.mvn/wrapper/maven-wrapper.properties
+
+
+
+
+.git
+../.gitignore
+.idea
+../docker-compose.yml
+../README.md
+
+
+
+.env
+*.log
+.dockerignore
