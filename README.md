@@ -17,6 +17,7 @@ O projeto foi construído com foco em arquitetura limpa, segurança, boas práti
 - JWT Authentication
 
 ## 🔹 Banco de Dados
+- PostgresSQL
 - MySQL
 
 ## 🔹 DevOps
@@ -40,14 +41,23 @@ O projeto foi construído com foco em arquitetura limpa, segurança, boas práti
 # 📌 Funcionalidades
 
 ✅ Cadastro de usuários  
+
 ✅ Login com autenticação JWT  
+
 ✅ Controle de autorização e segurança  
+
 ✅ CRUD completo de produtos  
+
 ✅ CRUD de pedidos  
+
 ✅ Controle de estoque  
-✅ Tratamento global de exceptions
+
+✅ Tratamento global de exceptions 
+
 ✅ Documentação completa da API
+
 ✅ Containerização com Docker 
+
 ✅ Testes unitários com Junit e Mockito
  
 
