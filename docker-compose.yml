@@ -8,9 +8,9 @@ services:
     depends_on:
       - postgres
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/Ecommerce
-      SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: IloveEva
+      SPRING_DATASOURCE_URL: ${SPRING_URL}
+      SPRING_DATASOURCE_USERNAME: ${SPRING_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_PASSWORD}
       JWT_SECRET: ${JWT_SECRET}
       JWT_EXPIRATION: ${JWT_EXPIRATION}
     ports:
